@@ -1,0 +1,112 @@
+/* index.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #007bff;
+}
+
+.jokes-heading {
+  color: #910577a1; 
+  background-color: hsl(128, 74%, 75%);
+  font-size: 40px;
+  text-align : center;
+  padding:8px;
+}
+.login-heading{
+  color:#ca480c;
+
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e9d715;
+}
+
+.table .id-content,
+.table .joke-content {
+  color: #a508087e; 
+  background-color: #41edca;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.login-container {
+  background-color: #17cbd4; 
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  margin-bottom: 5px; 
+  padding-top: 12px;
+}
+
+.form-control {
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.btn {
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.btn-success {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.alert {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  color: #721c24;
+}
+
